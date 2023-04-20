@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #EB192C;
+}
+
+.error-message {
+  position: absolute;
+  top: 180;
+  left: 0;
+  width: 100%;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #e6e6e6;
+}
+
+.login-page .form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #2A2F8B; 
+  width: 90%;
+  max-width: 400px;
+}
+
+.login-page input[type="text"],
+.login-page input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+}
+
+.login-page button[type="submit"] {
+  background-color: #2A2F8B;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.login-page .message {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-page .message a {
+  color: #2A2F8B;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #e6e6e6;
+}
+
+.register-page .form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #2A2F8B;
+  width: 90%;
+  max-width: 400px;
+}
+
+.register-page input[type="text"],
+.register-page input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+}
+
+.register-page button[type="submit"] {
+  background-color: #2A2F8B;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.register-page .message {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.register-page .message a {
+  color: #2A2F8B;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .form {
+    padding: 30px;
+  }
+}
